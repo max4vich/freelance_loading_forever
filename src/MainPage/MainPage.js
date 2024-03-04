@@ -34,7 +34,7 @@ function MainPage(){
             } else {
                 clearInterval(timer);
             }
-        }, 5000);
+        }, 7000);
 
         return () => clearInterval(timer);
     }, [progress]);
@@ -45,11 +45,11 @@ function MainPage(){
                 <div className="loading-container">
                     <p className="loading-text">{messages[index]}</p>
                 </div>
-                <div className="loading-bar-container">
-                    <span className="loading-bar-progress">
+                <div className="loading-barr-container">
+                    <span className="loading-barr-progress">
                         {progress}%
                     </span>
-                    <div className="loading-bar">
+                    <div className="loading-barr">
 
                     </div>
                 </div>
