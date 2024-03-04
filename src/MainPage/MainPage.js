@@ -54,9 +54,9 @@ function MainPage(){
                     </div>
                 </div>
                 <nav>
-                    <a href='/'>Home</a>
-                    <a href='/'>About</a>
-                    <a href='/'>Contact us</a>
+                    <a href='/home'>Home</a>
+                    <a href='/about'>About</a>
+                    <a href='/contact_us'>Contact us</a>
                 </nav>
                 <Neon/>
 
