@@ -1,8 +1,8 @@
-import './MainPage.css'
+import './LongLoading.css'
 import Neon from "../Neon";
 import {useEffect, useState} from "react";
 
-function MainPage(){
+function LongLoading(){
     const messages = [
         "Site is still loading...",
         "Loading assets....",
@@ -65,4 +65,4 @@ function MainPage(){
     )
 }
 
-export default MainPage;
+export default LongLoading;

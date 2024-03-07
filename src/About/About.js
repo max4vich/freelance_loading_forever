@@ -1,8 +1,8 @@
-import './MainPage2.css';
+import './About.css';
 import Neon from "../Neon";
 import { useEffect, useState } from "react";
 
-function MainPage2() {
+function About() {
     const messages = [
         "Site is still loading...",
         "Loading assets....",
@@ -63,7 +63,21 @@ function MainPage2() {
                         </div>
                     </>
                 ) : (
-                    <p>Hello World!</p>
+                    <>
+                        <div className="about">
+                            <p>
+                                <b>About us</b><br/>
+                                <br/>
+
+                                Our team consists of highly skilled procrastinators, expert time-wasters, and seasoned
+                                delay enthusiasts. We’ve mastered the art of making progress without actually
+                                progressing.
+                                <br/><br/>
+                                Our CEO, Sir Dilly Dally, once said, “Why sprint when you can crawl? And why crawl when
+                                you can stand still?”
+                            </p>
+                        </div>
+                    </>
                 )}
                 <nav>
                     <a href='/home'>Home</a>
@@ -76,4 +90,4 @@ function MainPage2() {
     )
 }
 
-export default MainPage2;
+export default About;

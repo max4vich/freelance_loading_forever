@@ -1,19 +1,21 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import MainPage from "./MainPage/MainPage";
+import LongLoading from "./LongLoading/LongLoading";
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
-import MainPage2 from "./MainPage2/MainPage2";
+import ContactUs from "./ContactUs/ContactUs";
+import About from "./About/About";
+import Home from "./Home/Home";
 
 function App() {
   return (
       <>
           <Router>
               <Routes>
-                  <Route path='/' element={<MainPage/>}/>
-                  <Route path='/about' element={<MainPage/>}/>
-                  <Route path='/home' element={<MainPage/>}/>
-                  <Route path='/contact_us' element={<MainPage2/>}/>
+                  <Route path='/' element={<LongLoading/>}/>
+                  <Route path='/about' element={<About/>}/>
+                  <Route path='/home' element={<Home/>}/>
+                  <Route path='/contact_us' element={<ContactUs/>}/>
               </Routes>
           </Router>
       </>

@@ -3,7 +3,13 @@ html, #app {
     width: 100%;
     height: 100%;
     z-index: -100;
+    overflow: hidden;
 }
+
+body {
+    overflow: hidden;
+}
+
 
 nav {
     display: flex;
@@ -75,7 +81,7 @@ p {
         opacity: 0;
     }
 }
-.loading-bar-container {
+.loading-barr-container {
     width: 300px;
     height: 30px;
     background-color: rgba(240, 240, 240, 0.11);
@@ -86,7 +92,7 @@ p {
     border: 0.5px solid white;
     position: relative;
 }
-.loading-bar-container {
+.loading-barr-container {
     width: 300px;
     height: 30px;
     background-color: rgba(240, 240, 240, 0.11);
@@ -97,18 +103,18 @@ p {
     border: 0.5px solid white;
 }
 
-.loading-bar {
+.loading-barr {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.23);
-    animation: fillLoadingBar 90s ease forwards;
+    animation: fillLoadingBar2 686s ease forwards;
 }
 
-@keyframes fillLoadingBar {
+@keyframes fillLoadingBar2 {
     from {
         width: 0.1%;
     }
     to {
-        width: 100%;
+        width: 98%;
     }
 }
 
@@ -121,7 +127,7 @@ p {
     z-index: 100;
 }
 
-.loading-bar {
+.loading-barr {
     height: 100%;
     transition: width 0.3s ease-in-out;
     display: flex;
@@ -132,7 +138,7 @@ p {
     font-weight: bold;
 }
 
-.loading-bar-progress {
+.loading-barr-progress {
     position: absolute;
     top: 50%; /* Move the top of the child element to the middle of the parent */
     left: 50%; /* Move the left side of the child element to the middle of the parent */
@@ -141,7 +147,7 @@ p {
 
 }
 
-.loading-bar-progress::after {
+.loading-barr-progress::after {
     content: '...';
     position: relative;
     animation: dotAnimation 1.5s infinite;
