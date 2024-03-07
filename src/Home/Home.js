@@ -59,7 +59,7 @@ function Home() {
                             <span className="loading-bar-progress">
                                 {progress}%
                             </span>
-                            <div className="loading-bar" style={{ width: `${progress}%` }}></div>
+                            <div className="loading-bar-home" style={{ width: `${progress}%` }}></div>
                         </div>
                     </>
                 ) : (

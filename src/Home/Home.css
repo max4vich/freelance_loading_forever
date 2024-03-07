@@ -97,13 +97,13 @@ p {
     border: 0.5px solid white;
 }
 
-.loading-bar {
+.loading-bar-home {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.23);
-    animation: fillLoadingBar 75s ease forwards;
+    animation: fillLoadingBarHome 60s linear;
 }
 
-@keyframes fillLoadingBar {
+@keyframes fillLoadingBarHome {
     from {
         width: 0.1%;
     }
@@ -120,18 +120,6 @@ p {
     gap: 30px;
     z-index: 100;
 }
-
-.loading-bar {
-    height: 100%;
-    transition: width 0.3s ease-in-out;
-    display: flex;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-weight: bold;
-}
-
 .loading-bar-progress {
     position: absolute;
     top: 50%; /* Move the top of the child element to the middle of the parent */

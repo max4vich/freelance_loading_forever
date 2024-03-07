@@ -59,7 +59,7 @@ function ContactUs() {
                             <span className="loading-bar-progress">
                                 {progress}%
                             </span>
-                            <div className="loading-bar" style={{ width: `${progress}%` }}></div>
+                            <div className="loading-bar-contact" style={{ width: `${progress}%` }}></div>
                         </div>
                     </>
                 ) : (

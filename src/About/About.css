@@ -97,13 +97,13 @@ p {
     border: 0.5px solid white;
 }
 
-.loading-bar {
+.loading-bar-about {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.23);
-    animation: fillLoadingBar 75s ease forwards;
+    animation: fillLoadingBarAbout 60s linear;
 }
 
-@keyframes fillLoadingBar {
+@keyframes fillLoadingBarAbout {
     from {
         width: 0.1%;
     }
@@ -121,24 +121,11 @@ p {
     z-index: 100;
 }
 
-.loading-bar {
-    height: 100%;
-    transition: width 0.3s ease-in-out;
-    display: flex;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-weight: bold;
-}
-
 .loading-bar-progress {
     position: absolute;
     top: 50%; /* Move the top of the child element to the middle of the parent */
     left: 50%; /* Move the left side of the child element to the middle of the parent */
     transform: translate(-50%, -50%);
-
-
 }
 
 .loading-bar-progress::after {

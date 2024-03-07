@@ -59,7 +59,7 @@ function About() {
                             <span className="loading-bar-progress">
                                 {progress}%
                             </span>
-                            <div className="loading-bar" style={{ width: `${progress}%` }}></div>
+                            <div className="loading-bar-about" style={{ width: `${progress}%` }}></div>
                         </div>
                     </>
                 ) : (
