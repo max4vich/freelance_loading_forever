@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function Home() {
     const messages = [
-        "Site is still loading...",
+        "Site is loading...",
         "Loading assets....",
         "We are working on it....",
         "Just a few more moments...",
