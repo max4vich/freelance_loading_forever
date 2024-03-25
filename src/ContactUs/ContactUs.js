@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 function ContactUs() {
     const messages = [
+        "Site is loading...",
         "Site is still loading...",
         "Loading assets....",
         "We are working on it....",
