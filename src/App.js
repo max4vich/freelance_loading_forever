@@ -12,7 +12,7 @@ function App() {
       <>
           <Router>
               <Routes>
-                  <Route path='/' element={<LongLoading/>}/>
+                  <Route path='/' element={<Home/>}/>
                   <Route path='/about' element={<About/>}/>
                   <Route path='/home' element={<Home/>}/>
                   <Route path='/contact_us' element={<ContactUs/>}/>
